@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true"
+    android:interpolator="@android:anim/linear_interpolator">
+    <!-- Use startOffset to give delay between animations. It
+    specify the start time of the animation after you press the button
+    in that case -->
+    <!-- Move -->
+    <translate
+        android:duration="800"
+        android:fillAfter="true"
+        android:fromYDelta="0%p"
+        android:startOffset="300"
+        android:toYDelta="40%p" />
+    <translate
+        android:duration="800"
+        android:fillAfter="true"
+        android:fromYDelta="0%p"
+        android:startOffset="1100"
+        android:toYDelta="-40%p"
+        android:fromXDelta="0%p"
+        android:toXDelta="65%p"
+        />
+    <translate
+        android:duration="800"
+        android:fillAfter="true"
+        android:fromYDelta="0%p"
+        android:startOffset="1900"
+        android:toYDelta="40%p" />
+    <!-- Rotate 360 degrees -->
+</set>
